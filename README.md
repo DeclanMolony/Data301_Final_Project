@@ -10,7 +10,7 @@ An event dubbed “[The Great California Exodus](https://www.wsj.com/video/serie
 By far, state income and sales tax rates account for most of the state’s revenue. A third category we considered was property tax, but property tax was mostly a source of revenue for local governments (ie: counties) rather than state governments. We are going to use historical income and sales tax data from the last 15 years to predict the state migration patterns going into and out of states.
 
 
-## **II. II.	Data Collection and Cleaning**
+## **II. Data Collection and Cleaning**
 
 ### **Income Tax Brackets Data**
 
