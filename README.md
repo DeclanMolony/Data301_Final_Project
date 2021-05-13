@@ -40,14 +40,15 @@ The following two tables show the states that do _not_ have sales or income tax,
 
 This following facet graph shows in the 2000's, sales tax has bimodal distribution. Going into the 2010's it slowly transitions to trimodal distribution. The small 'bump' on the left of each facet represents the group of states with no sales tax.
 
-![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10.jpg?raw=true)
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10_1.jpg?raw=true) ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10_2.jpg?raw=true)
 
 
 The following choropleth illustrates how the sales tax changes each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
 
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image9.png?raw=true)
+
 There are two interesting observations from this graph. (1) Sales taxes from 2009-2011 seem to be particularly low compared to the rest of the years. This could be a response by state governments to the Great Recession during those years. (2) Sales tax tends to not vary greatly each year. It's mostly constant across each state, with increases or decreases every couple years.
 
-![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/sales_choro.png?raw=true)
 
 
 
