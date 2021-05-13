@@ -43,9 +43,11 @@ This following facet graph shows in the 2000's, sales tax has bimodal distributi
 ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/facet1.png?raw=true) ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/facet2.png?raw=true)
 
 
+The following choropleth illustrates how the sales tax changes each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
 
+There are two interesting observations from this graph. (1) Sales taxes from 2009-2011 seem to be particularly low compared to the rest of the years. This could be a response by state governments to the Great Recession during those years. (2) Sales tax tends to not vary greatly each year. It's mostly constant across each state, with increases or decreases every couple years.
 
-
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/sales_choro.png?raw=true)
 
 
 
