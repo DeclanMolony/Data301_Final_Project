@@ -40,7 +40,7 @@ The following two tables show the states that do _not_ have sales or income tax,
 
 This following facet graph shows in the 2000's, sales tax has bimodal distribution. Going into the 2010's it slowly transitions to trimodal distribution. The small 'bump' on the left of each facet represents the group of states with no sales tax.
 
-![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10.png?raw=true)
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10.jpg?raw=true)
 
 
 The following choropleth illustrates how the sales tax changes each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
