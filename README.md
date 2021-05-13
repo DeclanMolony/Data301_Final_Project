@@ -43,6 +43,7 @@ This following facet graph shows in the 2000's, sales tax has bimodal distributi
 ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10_1.jpg?raw=true) ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image10_2.jpg?raw=true)
 
 
+
 The following choropleth illustrates how the sales tax changes each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
 
 ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image9.png?raw=true)
@@ -51,8 +52,51 @@ There are two interesting observations from this graph. (1) Sales taxes from 200
 
 
 
+The following choropleth illustrates how the median Income Tax changes in each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image2.png?raw=true)
+
+The observations based on this graph is that Income Tax median rates vary a great deal more than the sales tax rates. 
+
+
+The following choropleth illustrates Migration Inflow of each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image11.png?raw=true)
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image3.png?raw=true)
+
+If you look at any year, the three states by far with the most migration inflow are California, Texas, and Florida. The table confirms those are in the top five States regarding mean inflow migration per year, along with North Carolina and Georgia.
+
+
+The following choropleth illustrates Migration Outflow of each state by year. It is interactive and in the “Data Exploration” google collab, one can filter by year. 
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image4.png?raw=true)
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image1.png?raw=true)
+
+
+In terms of mean outflow migration per year, California, Florida, and Texas are still in the top 5. But the other states people are leaving are New York and Illinois.
+
+Now hold on, if California, Texas, and Florida are in the top 3 for both inflow and outflow migration, what does that really mean? It means we need to take a look at net migration data, by state.
+
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image8.png?raw=true)
+
+
+Here we see the top five states, on average, with the most net migration: Texas, Florida, North Carolina, Arizona, and Georgia. These states all have net positive migration. Compare those states to the bottom five, which all have net negative migration. Those states are Michigan, New Jersey, Illinois, California, and New York.
+
+There is a huge disparity between the top and bottom five. About 111,000 people moved to Texas, on average, over the last 15 years. Meanwhile about 164,000 people moved out of New York, on average, over the same time period.
+
+
+## **IV. IV.	Predicting Migration Outflow and Inflow using Linear Regression**
 
 
 
+Our variables for each model:
+-	Intercept
+-	Minimum State Income Tax Rate: 
+-	Maximum State Income Tax Rate
+-	Median State Income Tax Rate
+-	State Sales Tax
 
 
