@@ -1,7 +1,7 @@
 # Data301_Final_Project
 
 
-## Three Key Areas
+## Main Areas
 
 * Data Collection and Cleaning
 * Data Exploration
