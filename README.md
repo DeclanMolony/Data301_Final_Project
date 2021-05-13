@@ -37,4 +37,16 @@ The data was formatted poorly with merged cells across columns and it repeated t
 
 These two tables show the states that do _not_ have sales or income tax, respectively. Alaska is the one state that has neither, which made it difficult to predict migration patterns for.
 
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/facet1.png?raw=true) ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/facet2.png?raw=true)
+
+This facet graph shows that in the 2000's, sales tax has bimodal distribution. Going into the 2010's it slowly transitions to trimodal distribution. The small 'bump' on the left of each facet represents the group of states with no Sales Tax.
+
+
+
+
+
+
+
+
+
 
