@@ -88,15 +88,42 @@ Here we see the top five states, on average, with the most net migration: Texas,
 There is a huge disparity between the top and bottom five. About 111,000 people moved to Texas, on average, over the last 15 years. Meanwhile about 164,000 people moved out of New York, on average, over the same time period.
 
 
-## **IV. IV.	Predicting Migration Outflow and Inflow using Linear Regression**
+## **IV. Predicting Migration Outflow and Inflow using Linear Regression**
 
 
 
 Our variables for each model:
--	Intercept
 -	Minimum State Income Tax Rate: 
 -	Maximum State Income Tax Rate
 -	Median State Income Tax Rate
 -	State Sales Tax
+
+
+### Overview of our Models
+
+Before we start, we want to specifically mention why we did not include dummy variables corresponding to each state in our model. This is because just knowing the state tells us the inflow and outflow by itself. In preliminary tests, we found that having only the state dummy variables gives us R^2 of .98, which is extremely high. This is because the state dummy encapsulates specific things about the state, its weather, its housing prices, and of course its tax rates. Meaning that however much the tax of a state influences an individual to move/leave there is accounted for by that one dummy variable. 
+
+Knowing this we ran two main categories of regressions to predict the outflow and inflow of migration per state:
+1.	Predicting inflow/outflow using all of the state migration/tax data
+2.	Predicting inflow/outflow one state at a time, meaning we trained one model per state using only that specific states migration and tax data for prediction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
