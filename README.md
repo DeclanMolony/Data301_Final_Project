@@ -33,7 +33,7 @@ The data was formatted poorly with merged cells across columns and it repeated t
 
 ## **III.	Exploratory Analysis**
 
-
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/sales_tax_state.png?raw=true)
 
 
 
