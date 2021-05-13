@@ -33,8 +33,8 @@ The data was formatted poorly with merged cells across columns and it repeated t
 
 ## **III.	Exploratory Analysis**
 
-![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/sales_tax_state.png?raw=true)
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/sales_tax_state.png?raw=true) ![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/income_tax_state.png?raw=true)
 
-
+These two tables show the states that do _not_ have sales or income tax, respectively. Alaska is the one state that has neither, which made it difficult to predict migration patterns for.
 
 
