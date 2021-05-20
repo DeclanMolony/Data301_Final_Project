@@ -104,7 +104,7 @@ Our variables for each model:
 Before we start, we want to specifically mention why we did not include dummy variables corresponding to each state in our model. This is because just knowing the state tells us the inflow and outflow by itself. In preliminary tests, we found that having only the state dummy variables gives us R^2 of .98, which is extremely high. This is because the state dummy encapsulates specific things about the state, its weather, its housing prices, and of course its tax rates. Meaning that however much the tax of a state influences an individual to move/leave there is accounted for by that one dummy variable. 
 
 Knowing this we ran two main categories of regressions to predict the outflow and inflow of migration per state:
-1.	Predicting inflow/outflow using all of the state migration/tax data
+1.	Predicting inflow/outflow using all the state migration/tax data
 2.	Predicting inflow/outflow one state at a time, meaning we trained one model per state using only that specific states migration and tax data for prediction
 
 
