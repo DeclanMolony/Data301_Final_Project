@@ -108,10 +108,17 @@ Knowing this we ran two main categories of regressions to predict the outflow an
 2.	Predicting inflow/outflow one state at a time, meaning we trained one model per state using only that specific states migration and tax data for prediction
 
 
+For the first model, we got some interesting results depending on whether or not we added an intercept to the model.
+
+| Model         | Inflow          | Outflow     |
+|:-------------:|:----------------:|:-----------|
+R^2 (without intercept) | 0.602    |     0.609  
+R^2 (with intercept)    | 0.119    |     0.116
 
 
+This shows us the model has *far* more predictive power when there's no intercept given. However, we chose to keep the intercept going forward despite it weakening the model’s predictive power for interpretability purposes.
 
-
+For the second model, we tested its accuracy by the average R^2 model across all state models (including an intercept). Here are some graphs of the predictive power of each model by state:
 
 
 
