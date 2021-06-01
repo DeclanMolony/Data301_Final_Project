@@ -3,7 +3,7 @@
 
 ## Abstract
 
-**To what extent do state tax rates have an impact on inter-state migration**? For example, is there a relationship between a state having relatively high tax rates and people leaving the state?
+**To what extent do state tax rates have an impact on inter-state migration?** For example, is there a relationship between a state having relatively high tax rates and people leaving the state?
 
 In this project, we web scraped income & sales tax data from government websites in an attempt to build models predicting state migration patterns. In gerneral, our hypothesis proved true as places with the highest taxes like California and New York had the greatest outflow of people leaving those states, while places with relatively low taxes like Texas and Florida were receiving many new occupants in a given year. Although the states' tax data were significant predictors, they did not explain a large part of the variation of net migration (measured in the form of R-squared).
 
