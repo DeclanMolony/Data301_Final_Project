@@ -120,9 +120,61 @@ This shows us the model has *far* more predictive power when there's no intercep
 
 For the second model, we tested its accuracy by the average R^2 model across all state models (including an intercept). Here are some graphs of the predictive power of each model by state:
 
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image7.png?raw=true)
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image6.png?raw=true)
+
+We found that states that don’t have any taxes, like Texas, had no ability to predict what the rates were which resulted in R^2 values of 0. This is due to us trying to predict the migration of these states, using taxes that don’t exist. Conversely, states with higher tax rates are easier to predict migrations using tax rates, for example, California has an R^2 of .99 when predicting how many people will leave, and an R^2 of .688 to predict how many people will come to the California each year. 
+
+
+### Models Using All Migration and Tax Data
+
+
+The first model we created was trying to predict the inflow of a generic state using all the state’s tax data across all years collected (2005-2019). The output is below:
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image13.PNG?raw=true)
+
+
+As you can see, the R^2 on models with the intercept are not high; however, the P-values for all the coefficients except for the minimum income tax rate are all below .05, providing statistical evidence of their importance when predicting the inflow of a given state per year.
+
+
+Interpretation of coefficients:
+
+1.	Intercept: If a state has no taxes, we predict that there will be 100,000 people trying to enter the state
+2.	Minimum Income Tax Rate: If a state increases it’s tax rate for the lowest tax bracket by 100%, then we expect 700,000 new people to enter the state)
+3.	Maximum Income Tax Rate: If a state increases it’s tax rate by 100%  for the highest tax bracket by 100%, then we predict 1,326,000 people to enter the state 
+4.	Median Income Tax Rate: If the income tax rate increases by 100% for the median tax bracket, then we predict for 3,270,000 to leave the state. 
+5.	Sales Tax: If the sales tax rate increases by 1% for the state, then we predict for 1,656,000 people to enter the state. 
 
 
 
+The second model is the same as the first but attempting to predict the migration out of the state rather than into the state. The output is below:
+
+![](https://github.com/DeclanMolony/Data301_Final_Project/blob/main/Images/image14.PNG?raw=true)
+
+From the output above we can see that R^2 is very similar to that of the inflow model, but the main difference between the two is that all the P-values for all coefficients for this model are below .05, meaning they have statistical significance in this model.
+
+Interpretation of coefficients:
+
+1.	Intercept: If a state has no taxes, we predict that there will be 60,000 people to leave the state
+2.	Minimum Income Tax Rate: If a state increases its tax rate for the lowest tax bracket by 100%, then we expect 1.487 million new people to leave the state
+3.	Maximum Income Tax Rate: If a state increases its tax rate for the highest tax bracket by 100%, then we predict 2.9 million people to enter the state.
+4.	Median Income Tax Rate: If the income tax rate increases by 100% for the median tax bracket, then we predict for 4.9 million people to enter the state. 
+5.	Sales Tax: If the sales tax rate increases by 100% for the state, then we predict for 1.76 people to leave the state. 
+
+
+### Conclusion about these models
+
+The interpretation of the coefficient of these 2 models contradict each other. In the first model we are predicting inflow, and in the second we are predicting outflow. However, the signs on all the coefficients are exactly the same for both models, meaning the interpretations of the two models directly contradict each other. For example, if the median tax rate increases by 100%, then the inflow model predicts that the state will LOSE over 3 million people, but in the exact same scenario, the outflow model predicts the state will GAIN nearly 5 million people. This shows a serious weakness in our model. If we were to try and improve it, we would look for more confounding variables that explain some of the movement between states; examples being weather, housing prices, and employment rates. Adding confounding variables would allow our model to further isolate what the main causes of state-by-state migration.
+
+
+## **Conclusion**
+
+“In this world nothing is certain but death and taxes” - Benjamin Franklin
+
+	No one likes paying taxes, that is tautology if ever there was one, but we wanted to find out to what extent people would go to not pay their taxes. Through our data exploration we found that states with the largest net migrations out of the state are California and New York, with the highest tax rates; furthermore, we found that Texas, a state with no income tax, has the highest net migration into the state. These simple statistics were evidence that tax rates play a big role in people choosing to move to or out of a given state. 
+  
+We had hoped that we could use linear regression to find further evidence of this phenomenon, but our model was simply too weak to make any meaningful conclusions on the matter. We believe that we would need to account for other reasons people might choose to move to, or, from a state: a state’s weather, housing prices, and employment rates being some examples. And if we were to add these to our model, we think we would find more definitive evidence of the role taxes play in people’s decision to move states. 
 
 
 
