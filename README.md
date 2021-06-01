@@ -170,10 +170,12 @@ The interpretation of the coefficient of these 2 models contradict each other. I
 
 ## **Conclusion**
 
-“In this world nothing is certain but death and taxes” - Benjamin Franklin
+"In this world nothing is certain but death and taxes" - Benjamin Franklin
 
-	No one likes paying taxes, that is tautology if ever there was one, but we wanted to find out to what extent people would go to not pay their taxes. Through our data exploration we found that states with the largest net migrations out of the state are California and New York, with the highest tax rates; furthermore, we found that Texas, a state with no income tax, has the highest net migration into the state. These simple statistics were evidence that tax rates play a big role in people choosing to move to or out of a given state. 
-  
+
+No one likes paying taxes, that is tautology if ever there was one, but we wanted to find out to what extent people would go to not pay their taxes. Through our data exploration we found that states with the largest net migrations out of the state are California and New York, with the highest tax rates; furthermore, we found that Texas, a state with no income tax, has the highest net migration into the state. These simple statistics were evidence that tax rates play a big role in people choosing to move to or out of a given state. 
+
+
 We had hoped that we could use linear regression to find further evidence of this phenomenon, but our model was simply too weak to make any meaningful conclusions on the matter. We believe that we would need to account for other reasons people might choose to move to, or, from a state: a state’s weather, housing prices, and employment rates being some examples. And if we were to add these to our model, we think we would find more definitive evidence of the role taxes play in people’s decision to move states. 
 
 
