@@ -1,4 +1,4 @@
-# ***The Influence of Taxes on State Migration***
+# ***The Influence of Taxes on Inter-State Migration***
 
 
 ## Abstract
